@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "id": "43c98ce8-a07a-4dc2-80f6-c1b2a2485f06",
     "text": "Worry about things",
@@ -525,3 +525,4 @@
     ]
   }
 ]
+export default data
