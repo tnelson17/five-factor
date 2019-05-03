@@ -1,6 +1,6 @@
 import React from 'react';
 import QuestionList from './QuestionList';
-import data from '../data.js'
+import data from '../data.json'
 
 const App = () => {
   return (
