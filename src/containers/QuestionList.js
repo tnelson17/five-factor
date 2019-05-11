@@ -6,18 +6,14 @@ class QuestionList extends React.Component {
     super(props);
 
     this.state = {
-      O: 0,
-      C: 0,
-      E: 0,
-      A: 0,
-      N: 0
+      value: null,
+      domain: null
     }
-
-    this.handleQuestionClick = this.handleQuestionClick.bind(this)
+    this.handleFormSubmit = this.handleFormSubmit.bind(this)
   }
 
-  handleQuestionClick(event) {
-    this.setState({ [event.target.name]: this.state[event.target.name] + parseInt(event.target.value) })
+  handleFormSubmit(payload) {
+    this.setState({...payload})
   }
 
   render(){
@@ -26,12 +22,12 @@ class QuestionList extends React.Component {
 
       return (
         <Question
-          key={question.id}
-          id={question.id}
-          num={question.num}
+          key={question.num}
+          id={question.num}
           text={question.text}
           domain={question.domain}
           handleClick={this.handleQuestionClick}
+          handleFormSubmit={this.handleFormSubmit}
         />
       )
     });
