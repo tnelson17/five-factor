@@ -16,7 +16,6 @@ class Question extends React.Component {
   }
 
   handleChange(event) {
-    console.log(event);
     this.setState({
       clicked: true,
       value: parseInt(event.target.value) })
@@ -24,7 +23,7 @@ class Question extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault()
-    this.props.handleFormSubmit({
+    this.props.handleQuestionSubmit({
       id: this.state.id,
       value: this.state.value,
       domain: this.state.domain
@@ -36,7 +35,6 @@ class Question extends React.Component {
   }
 
   render(){
-    console.log(this.state);
     return (
       <form onSubmit={this.handleSubmit}>
         <div> {this.props.text} </div>
