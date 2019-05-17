@@ -5,7 +5,7 @@ class QuestionList extends React.Component {
   constructor(props){
     super(props);
     this.state = {};
-    this.handleFormSubmit = this.handleFormSubmit.bind(this)
+    this.handleQuestionSubmit = this.handleQuestionSubmit.bind(this)
   }
   componentDidMount(){
     let questionsArray = this.props.questions.map((question, index) => {
@@ -15,7 +15,7 @@ class QuestionList extends React.Component {
     this.setState({ questions: questionsObject });
   }
 
-  handleFormSubmit(payload) {
+  handleQuestionSubmit(payload) {
     this.setState({
       questions: {
         ...this.state.questions,
@@ -33,7 +33,7 @@ class QuestionList extends React.Component {
           text={question.text}
           domain={question.domain}
           handleClick={this.handleQuestionClick}
-          handleFormSubmit={this.handleFormSubmit}
+          handleQuestionSubmit={this.handleQuestionSubmit}
         />
       )
     });
@@ -45,7 +45,6 @@ class QuestionList extends React.Component {
   };
 
   render(){
-    console.log(this.state);
     return (
       this.mapQuestions()
     );
