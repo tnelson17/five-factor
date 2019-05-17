@@ -9,12 +9,22 @@ class App extends React.Component {
       submitted: false,
       score: {}
     }
+    this.handleFormSubmit = this.handleFormSubmit.bind(this)
   }
+
+  handleFormSubmit(payload) {
+    this.setState({
+      submitted: true,
+      score: payload
+    })
+  }
+
   render() {
     return (
       <div>
         <h2> Five Factor </h2>
         <QuestionList
+          handleFormSubmit = {this.handleFormSubmit}
           questions = {data}
         />
       </div>

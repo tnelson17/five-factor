@@ -6,6 +6,7 @@ class QuestionList extends React.Component {
     super(props);
     this.state = {};
     this.handleQuestionSubmit = this.handleQuestionSubmit.bind(this)
+    this.submitForm = this.submitForm.bind(this)
   }
   componentDidMount(){
     let questionsArray = this.props.questions.map((question, index) => {
@@ -22,6 +23,21 @@ class QuestionList extends React.Component {
         [payload.id]: {...payload}
       }
     });
+  }
+
+  submitForm(data) {
+    let payload = {
+      O: 0,
+      C: 0,
+      E: 0,
+      A: 0,
+      N: 0
+    }
+    let idArray = Object.keys(this.state.questions)
+    idArray.forEach((id, index) => {
+      payload[this.state.questions[index].domain] += parseInt(this.state.questions[index].value)
+    })
+    this.props.handleFormSubmit(payload)
   }
 
   mapQuestions(){
@@ -46,7 +62,10 @@ class QuestionList extends React.Component {
 
   render(){
     return (
-      this.mapQuestions()
+      <>
+      {this.mapQuestions()}
+      <button onClick={this.submitForm}>Submit</button>
+      </>
     );
   }
 }
