@@ -1,5 +1,6 @@
 import React from 'react';
 import QuestionList from './QuestionList';
+import ScoreDisplay from './ScoreDisplay';
 import data from '../data.json'
 
 class App extends React.Component {
@@ -19,14 +20,20 @@ class App extends React.Component {
     })
   }
 
+
   render() {
     return (
       <div>
         <h2> Five Factor </h2>
-        <QuestionList
-          handleFormSubmit = {this.handleFormSubmit}
-          questions = {data}
-        />
+        {this.state.submitted?(
+          <ScoreDisplay
+            score = {this.state.score}/>
+        ):(
+          <QuestionList
+            handleFormSubmit = {this.handleFormSubmit}
+            questions = {data}
+          />
+        )}
       </div>
     );
   }
