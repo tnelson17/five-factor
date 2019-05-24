@@ -26,7 +26,8 @@ class App extends React.Component {
       <div>
         <h2> Five Factor </h2>
         {this.state.submitted?(
-          <ScoreDisplay />
+          <ScoreDisplay
+            score = {this.state.score}/>
         ):(
           <QuestionList
             handleFormSubmit = {this.handleFormSubmit}
