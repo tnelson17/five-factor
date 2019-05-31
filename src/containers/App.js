@@ -1,7 +1,22 @@
 import React from 'react';
+import styled from 'styled-components';
 import QuestionList from './QuestionList';
 import ScoreDisplay from './ScoreDisplay';
 import data from '../data.json'
+
+
+const Title = styled.h2`
+  text-align: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+  color: #0000CD;
+`
+
+const SubTitle = styled.h5`
+  font-style: italic;
+  color:#0000CD;
+`
 
 class App extends React.Component {
   constructor(){
@@ -21,10 +36,15 @@ class App extends React.Component {
   }
 
 
+
   render() {
     return (
       <div>
-        <h2> Five Factor </h2>
+        <Title> knOw-CEAN </Title>
+        <SubTitle>
+          It's not the lies of the MBTI,
+          it's the notion of the OCEAN
+        </SubTitle>
         {this.state.submitted?(
           <ScoreDisplay
             score = {this.state.score}/>
