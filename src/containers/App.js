@@ -26,6 +26,7 @@ class App extends React.Component {
       score: {}
     }
     this.handleFormSubmit = this.handleFormSubmit.bind(this)
+    this.backButton = this.backButton.bind(this)
   }
 
   handleFormSubmit(payload) {
@@ -35,7 +36,12 @@ class App extends React.Component {
     })
   }
 
-
+  backButton() {
+    this.setState({
+      submitted: false,
+      score: {}
+    })
+  }
 
   render() {
     return (
@@ -46,8 +52,12 @@ class App extends React.Component {
           it's the notion of the OCEAN
         </SubTitle>
         {this.state.submitted?(
-          <ScoreDisplay
-            score = {this.state.score}/>
+          <>
+            <ScoreDisplay
+              score = {this.state.score}
+            />
+            <button onClick={this.backButton}>Back</button>
+          </>
         ):(
           <QuestionList
             handleFormSubmit = {this.handleFormSubmit}
