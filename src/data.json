@@ -69,34 +69,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 2,
-    "num": 9,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 9
   },
   {
     "id": "cda1ca17-b599-4561-a6cd-ff9d36062d27",
@@ -176,34 +149,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 4,
-    "num": 19,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 19
   },
   {
     "id": "b7fc949b-02b6-4cb9-a3e2-dbb3d824b55f",
@@ -243,34 +189,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 5,
-    "num": 24,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 24
   },
   {
     "id": "f6076eea-56ae-4b46-97f1-5f94a7676c96",
@@ -318,34 +237,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 6,
-    "num": 30,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 30
   },
   {
     "id": "7f92ab2c-265c-4b84-8c74-09f9bb9d41a7",
@@ -417,34 +309,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 2,
-    "num": 39,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 39
   },
   {
     "id": "adf33f9f-45bd-43e3-af25-4c491176d97f",
@@ -452,34 +317,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 2,
-    "num": 40,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 40
   },
   {
     "id": "f0a14e16-d726-47e9-a2c1-647fd3d7d52e",
@@ -543,34 +381,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 4,
-    "num": 48,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 48
   },
   {
     "id": "d9a9a180-29c9-4ec5-8621-2256d411def7",
@@ -578,34 +389,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 4,
-    "num": 49,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 49
   },
   {
     "id": "f12c3d9d-1d12-4aa6-ad2e-009cd0651cbb",
@@ -621,34 +405,7 @@
     "keyed": "minus",
     "domain": "N",
     "facet": 5,
-    "num": 51,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 51
   },
   {
     "id": "f1675af6-88bf-4376-a946-0281e762b39c",
@@ -664,34 +421,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 5,
-    "num": 53,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 53
   },
   {
     "id": "7df44711-4cd4-4b05-8830-73fcc3ebdab5",
@@ -699,34 +429,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 5,
-    "num": 54,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 54
   },
   {
     "id": "9d3cb5c7-955c-43a4-b6c7-b07ed01dcbd9",
@@ -774,34 +477,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 6,
-    "num": 60,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 60
   },
   {
     "id": "4d81238b-5407-47d4-88e5-dc0e38aa14f5",
@@ -817,34 +493,7 @@
     "keyed": "minus",
     "domain": "E",
     "facet": 1,
-    "num": 62,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 62
   },
   {
     "id": "23a1034f-fab7-4887-a66e-5ef4eaafb25e",
@@ -884,34 +533,7 @@
     "keyed": "minus",
     "domain": "E",
     "facet": 2,
-    "num": 67,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 67
   },
   {
     "id": "751a04bc-5adf-485a-8ea4-4308406ae85b",
@@ -919,34 +541,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 2,
-    "num": 68,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 68
   },
   {
     "id": "982e83c2-d34e-48da-9c71-78494ab05c85",
@@ -954,34 +549,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 2,
-    "num": 69,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 69
   },
   {
     "id": "f4891687-0ff0-47af-a4f6-d1202c8f6676",
@@ -989,34 +557,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 2,
-    "num": 70,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 70
   },
   {
     "id": "743d8973-1de1-4485-91b4-8a5cf63e7d44",
@@ -1040,34 +581,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 3,
-    "num": 73,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 73
   },
   {
     "id": "cd54bd76-ca9c-4030-b325-bb8d896bcb3f",
@@ -1075,34 +589,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 3,
-    "num": 74,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 74
   },
   {
     "id": "4e6e3a34-176f-4e6e-8730-1341611f972b",
@@ -1110,34 +597,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 3,
-    "num": 75,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 75
   },
   {
     "id": "20062533-a33d-4c1e-9cd9-bff868015b3f",
@@ -1161,34 +621,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 4,
-    "num": 78,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 78
   },
   {
     "id": "0de0f900-cede-4538-9c00-5da4f830b028",
@@ -1196,34 +629,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 4,
-    "num": 79,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 79
   },
   {
     "id": "a9c97d6b-6721-4150-8d84-64ef3082f164",
@@ -1231,34 +637,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 4,
-    "num": 80,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 80
   },
   {
     "id": "9f2e7f90-0ca5-4ed0-9fe5-e060238a9b5e",
@@ -1266,34 +645,7 @@
     "keyed": "minus",
     "domain": "N",
     "facet": 5,
-    "num": 81,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 81
   },
   {
     "id": "7dd6cf2d-5c14-48c2-8ae5-633a7a596c71",
@@ -1309,34 +661,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 5,
-    "num": 83,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 83
   },
   {
     "id": "1d686958-6fe7-432f-85e6-186b99e4e232",
@@ -1344,34 +669,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 5,
-    "num": 84,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 84
   },
   {
     "id": "c7db0ed8-df7d-49bf-942f-59e46ef743c4",
@@ -1379,34 +677,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 5,
-    "num": 85,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 85
   },
   {
     "id": "b7e0e393-9b21-4e0d-adf3-8f28fb5b9d87",
@@ -1430,34 +701,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 6,
-    "num": 88,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 88
   },
   {
     "id": "77f54ab4-0fba-4efb-8700-066c7490eb87",
@@ -1465,34 +709,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 6,
-    "num": 89,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 89
   },
   {
     "id": "a354cf7c-8d11-46ac-acc5-da90d2048637",
@@ -1500,34 +717,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 6,
-    "num": 90,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 90
   },
   {
     "id": "43b03992-3f32-4ed1-a6f8-5d6d3e7ed246",
@@ -1543,34 +733,7 @@
     "keyed": "minus",
     "domain": "E",
     "facet": 1,
-    "num": 92,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 92
   },
   {
     "id": "935a7413-abac-4f54-9169-d1fbd39da752",
@@ -1586,34 +749,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 1,
-    "num": 94,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 94
   },
   {
     "id": "5727c93f-317b-4af1-a686-77fc9fbc5033",
@@ -1629,34 +765,7 @@
     "keyed": "minus",
     "domain": "N",
     "facet": 2,
-    "num": 96,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 96
   },
   {
     "id": "9a47184f-6046-4e68-a61b-3d9b357b86ea",
@@ -1664,34 +773,7 @@
     "keyed": "minus",
     "domain": "E",
     "facet": 2,
-    "num": 97,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 97
   },
   {
     "id": "87c5b27e-59a8-4c48-8ba8-f5413d735693",
@@ -1699,34 +781,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 2,
-    "num": 98,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 98
   },
   {
     "id": "11b20adb-abed-4363-894c-3dd823ae0540",
@@ -1734,34 +789,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 2,
-    "num": 99,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 99
   },
   {
     "id": "50418d86-712c-45d9-adc4-ea0231c93cf5",
@@ -1769,34 +797,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 2,
-    "num": 100,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 100
   },
   {
     "id": "f40e421f-6c24-4be2-bd9f-28d33358d8c6",
@@ -1804,34 +805,7 @@
     "keyed": "minus",
     "domain": "N",
     "facet": 3,
-    "num": 101,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 101
   },
   {
     "id": "8791f37b-686f-47c3-9db7-74c009951321",
@@ -1839,34 +813,7 @@
     "keyed": "minus",
     "domain": "E",
     "facet": 3,
-    "num": 102,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 102
   },
   {
     "id": "4fd25155-9cc2-4cd6-8852-3e0ca2d5e95d",
@@ -1874,34 +821,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 3,
-    "num": 103,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 103
   },
   {
     "id": "b68af20d-24f9-4c27-85cc-fe0858994888",
@@ -1909,34 +829,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 3,
-    "num": 104,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 104
   },
   {
     "id": "54423933-0ebb-44a7-bdd9-2a9b100c70f2",
@@ -1944,34 +837,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 3,
-    "num": 105,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 105
   },
   {
     "id": "7317848c-3e1b-422f-bb16-02efc504f677",
@@ -1979,34 +845,7 @@
     "keyed": "minus",
     "domain": "N",
     "facet": 4,
-    "num": 106,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 106
   },
   {
     "id": "7d93e1ca-46e8-4a30-9623-42a80c9b420c",
@@ -2014,34 +853,7 @@
     "keyed": "minus",
     "domain": "E",
     "facet": 4,
-    "num": 107,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 107
   },
   {
     "id": "a7f43928-8982-4ed5-8656-7a80346fe979",
@@ -2049,34 +861,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 4,
-    "num": 108,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 108
   },
   {
     "id": "17910a55-a64a-4ed0-8b46-293e2fa2fe03",
@@ -2084,34 +869,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 4,
-    "num": 109,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 109
   },
   {
     "id": "3890bb43-2695-4b8d-b289-ee10d11cc884",
@@ -2119,34 +877,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 4,
-    "num": 110,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 110
   },
   {
     "id": "49a85680-53aa-4208-86b5-dccc7a6f8e37",
@@ -2154,34 +885,7 @@
     "keyed": "minus",
     "domain": "N",
     "facet": 5,
-    "num": 111,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 111
   },
   {
     "id": "10f90fa9-649c-4631-ac4c-3dd3f751597d",
@@ -2197,34 +901,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 5,
-    "num": 113,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 113
   },
   {
     "id": "80c1d149-7050-481a-9953-aefb441642e7",
@@ -2232,34 +909,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 5,
-    "num": 114,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 114
   },
   {
     "id": "51403620-968c-42fa-a772-65ba5ad8396f",
@@ -2267,34 +917,7 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 5,
-    "num": 115,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 115
   },
   {
     "id": "88a3c2fe-3aa4-4f46-9322-da656332268a",
@@ -2302,34 +925,7 @@
     "keyed": "minus",
     "domain": "N",
     "facet": 6,
-    "num": 116,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 116
   },
   {
     "id": "e7b31bdc-5f6b-40ec-ba91-f5919b0f170e",
@@ -2345,34 +941,7 @@
     "keyed": "minus",
     "domain": "O",
     "facet": 6,
-    "num": 118,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 118
   },
   {
     "id": "48bee420-60c0-45cd-be43-3893dbc1969a",
@@ -2380,34 +949,7 @@
     "keyed": "minus",
     "domain": "A",
     "facet": 6,
-    "num": 119,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 119
   },
   {
     "id": "ea3327ea-3529-4be4-8e2d-2174731ae4d7",
@@ -2415,33 +957,6 @@
     "keyed": "minus",
     "domain": "C",
     "facet": 6,
-    "num": 120,
-    "choices": [
-      {
-        "text": "Very Inaccurate",
-        "score": 5,
-        "color": 1
-      },
-      {
-        "text": "Moderately Inaccurate",
-        "score": 4,
-        "color": 2
-      },
-      {
-        "text": "Neither Accurate Nor Inaccurate",
-        "score": 3,
-        "color": 3
-      },
-      {
-        "text": "Moderately Accurate",
-        "score": 2,
-        "color": 4
-      },
-      {
-        "text": "Very Accurate",
-        "score": 1,
-        "color": 5
-      }
-    ]
+    "num": 120
   }
 ]
