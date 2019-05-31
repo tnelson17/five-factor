@@ -12,7 +12,8 @@ class QuestionList extends React.Component {
     super(props);
     this.state = {
       chosen: false,
-      questions: {}
+      questions: {},
+      questionsArray: []
     };
     this.handleQuestionSubmit = this.handleQuestionSubmit.bind(this)
     this.submitForm = this.submitForm.bind(this)
@@ -26,8 +27,9 @@ class QuestionList extends React.Component {
     });
     let questionsObject = Object.assign({}, questionsArray);
     this.setState({
+      chosen: true,
       questions: questionsObject,
-      chosen: true
+      questionsArray: this.props.questions
     });
   }
 
@@ -41,6 +43,16 @@ class QuestionList extends React.Component {
       .concat
       .apply([], [sampleSize(o, 6), sampleSize(c, 6), sampleSize(e, 6), sampleSize(a, 6), sampleSize(n, 6)])
       .sort((a, b) => a.num - b.num)
+      let questionsObject = Object.assign({},
+        questionsArray.map((question, index) => {
+          return ({id: index, value: '', domain: ''});
+        })
+      )
+      this.setState({
+        chosen: true,
+        questions: questionsObject,
+        questionsArray: questionsArray
+      });
   }
 
   handleQuestionSubmit(payload) {
@@ -68,8 +80,7 @@ class QuestionList extends React.Component {
   }
 
   render(){
-    console.log(this.props.questions);
-    let questions = this.props.questions.map ((question, index) => {
+    let questions = this.state.questionsArray.map ((question, index) => {
       return (
         <Question
           key={question.num}
