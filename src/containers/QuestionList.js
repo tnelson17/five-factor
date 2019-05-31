@@ -1,6 +1,7 @@
 import React from 'react';
 import Question from '../components/Question';
-import styled from 'styled-components'
+import styled from 'styled-components';
+const sampleSize = require('lodash.samplesize');
 
 const StyledQuestion = styled.div`
   color: #6A5ACD;
@@ -31,7 +32,15 @@ class QuestionList extends React.Component {
   }
 
   chooseShortTest(){
-    // this.
+    let o = this.props.questions.filter(question => question.domain === "O")
+    let c = this.props.questions.filter(question => question.domain === "C")
+    let e = this.props.questions.filter(question => question.domain === "E")
+    let a = this.props.questions.filter(question => question.domain === "A")
+    let n = this.props.questions.filter(question => question.domain === "N")
+    let questionsArray = []
+      .concat
+      .apply([], [sampleSize(o, 6), sampleSize(c, 6), sampleSize(e, 6), sampleSize(a, 6), sampleSize(n, 6)])
+      .sort((a, b) => a.num - b.num)
   }
 
   handleQuestionSubmit(payload) {
@@ -83,7 +92,7 @@ class QuestionList extends React.Component {
           ):(
             <>
               <button onClick={this.chooseLongTest}>Long Test</button>
-              <button>Short Test</button>
+              <button onClick={this.chooseShortTest}>Short Test</button>
             </>
           )
           }
