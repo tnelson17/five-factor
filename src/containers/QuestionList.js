@@ -20,20 +20,18 @@ class QuestionList extends React.Component {
   }
 
   chooseLongTest(){
-    this.setState({ chosen: true, ...this.state.questions })
-  }
-
-  chooseShortTest(){
-
-  }
-
-  componentDidMount(){
     let questionsArray = this.props.questions.map((question, index) => {
       return ({id: index, value: '', domain: ''});
     });
     let questionsObject = Object.assign({}, questionsArray);
     this.setState({
-      questions: questionsObject });
+      questions: questionsObject,
+      chosen: true
+    });
+  }
+
+  chooseShortTest(){
+    // this.
   }
 
   handleQuestionSubmit(payload) {
@@ -61,6 +59,7 @@ class QuestionList extends React.Component {
   }
 
   render(){
+    console.log(this.props.questions);
     let questions = this.props.questions.map ((question, index) => {
       return (
         <Question
@@ -73,6 +72,7 @@ class QuestionList extends React.Component {
         />
       )
     });
+
     return (
       <StyledQuestion>
           {this.state.chosen?(
