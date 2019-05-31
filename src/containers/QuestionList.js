@@ -1,5 +1,10 @@
 import React from 'react';
-import Question from '../components/Question'
+import Question from '../components/Question';
+import styled from 'styled-components'
+
+const StyledQuestion = styled.div`
+  color: #6A5ACD;
+`
 
 class QuestionList extends React.Component {
   constructor(props){
@@ -62,10 +67,10 @@ class QuestionList extends React.Component {
 
   render(){
     return (
-      <>
-      {this.mapQuestions()}
-      <button onClick={this.submitForm}>Submit</button>
-      </>
+      <StyledQuestion>
+        {this.mapQuestions()}
+        <button onClick={this.submitForm}>Submit</button>
+      </StyledQuestion>
     );
   }
 }
