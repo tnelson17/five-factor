@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const sampleSize = require('lodash.samplesize');
 
 const StyledQuestion = styled.div`
-  color: #6A5ACD;
+  color: #0000CD;
 `
 
 class QuestionList extends React.Component {

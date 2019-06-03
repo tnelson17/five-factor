@@ -4,7 +4,6 @@ import QuestionList from './QuestionList';
 import ScoreDisplay from './ScoreDisplay';
 import data from '../data.json'
 
-
 const Title = styled.h2`
   text-align: left;
   margin: 0;
