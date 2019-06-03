@@ -3,7 +3,7 @@ import Score from '../components/Score.js';
 import styled from 'styled-components'
 
 const StyledScore = styled.div`
-  color: #6A5ACD;
+  color: #0000CD;
 `
 
 
@@ -13,15 +13,13 @@ class ScoreDisplay extends React.Component {
     this.state = {
       score: {}
     }
-    // this.domainDisplay = this.domainDisplay.bind(this)
   }
 
-  // domainDisplay = Object.keys()
 
   render(){
     return(
       <StyledScore>
-        <Score score={this.props.score.O} domain={"Openness to New Experiences"} />
+        <Score score={this.props.score.O} domain={"Openness to Experience"} />
         <Score score={this.props.score.C} domain={"Conscientiousness"}/>
         <Score score={this.props.score.E} domain={"Extroversion"}/>
         <Score score={this.props.score.A} domain={"Agreeableness"}/>
