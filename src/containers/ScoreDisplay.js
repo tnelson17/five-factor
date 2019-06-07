@@ -20,11 +20,11 @@ class ScoreDisplay extends React.Component {
     let maxDomainScore = (this.props.testLength / 5) * 4
     return(
       <StyledScore>
-        <Score score={this.props.score.O} domain={"Openness to Experience"} max={maxDomainScore}/>
-        <Score score={this.props.score.C} domain={"Conscientiousness"} max={maxDomainScore}/>
-        <Score score={this.props.score.E} domain={"Extroversion"} max={maxDomainScore}/>
-        <Score score={this.props.score.A} domain={"Agreeableness"} max={maxDomainScore}/>
-        <Score score={this.props.score.N} domain={"Neuroticism"} max={maxDomainScore}/>
+        <Score score={this.props.score.O} domainKey={'O'} domain={"Openness to Experience"} max={maxDomainScore}/>
+        <Score score={this.props.score.C} domainKey={'C'} domain={"Conscientiousness"} max={maxDomainScore}/>
+        <Score score={this.props.score.E} domainKey={'E'} domain={"Extroversion"} max={maxDomainScore}/>
+        <Score score={this.props.score.A} domainKey={'A'} domain={"Agreeableness"} max={maxDomainScore}/>
+        <Score score={this.props.score.N} domainKey={'N'} domain={"Neuroticism"} max={maxDomainScore}/>
       </StyledScore>
     )
   }
