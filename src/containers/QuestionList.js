@@ -65,16 +65,19 @@ class QuestionList extends React.Component {
   }
 
   submitForm(data) {
-    let payload = {
-      O: 0,
-      C: 0,
-      E: 0,
-      A: 0,
-      N: 0
-    }
     let idArray = Object.keys(this.state.questions)
+    let payload = {
+      'score': {
+        O: 0,
+        C: 0,
+        E: 0,
+        A: 0,
+        N: 0
+      },
+      'testLength': idArray.length
+    }
     idArray.forEach((id, index) => {
-      payload[this.state.questions[index].domain] += parseInt(this.state.questions[index].value)
+      payload.score[this.state.questions[index].domain] += parseInt(this.state.questions[index].value)
     })
     this.props.handleFormSubmit(payload)
   }

@@ -22,7 +22,8 @@ class App extends React.Component {
     super()
     this.state = {
       submitted: false,
-      score: {}
+      score: {},
+      testLength: 0
     }
     this.handleFormSubmit = this.handleFormSubmit.bind(this)
     this.backButton = this.backButton.bind(this)
@@ -31,7 +32,8 @@ class App extends React.Component {
   handleFormSubmit(payload) {
     this.setState({
       submitted: true,
-      score: payload
+      score: payload.score,
+      testLength: payload.testLength
     })
   }
 
@@ -54,6 +56,7 @@ class App extends React.Component {
           <>
             <ScoreDisplay
               score = {this.state.score}
+              testLength = {this.state.testLength}
             />
             <button onClick={this.backButton}>Back</button>
           </>
