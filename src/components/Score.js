@@ -1,4 +1,5 @@
 import React from 'react';
+import { O, C, E, A, N } from '../descriptions.js'
 
 const Score = (props) => {
   return (
