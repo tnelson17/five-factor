@@ -56,6 +56,7 @@ class App extends React.Component {
           <>
             <ScoreDisplay
               score = {this.state.score}
+              testLength = {this.state.testLength}
             />
             <button onClick={this.backButton}>Back</button>
           </>
