@@ -23,6 +23,7 @@ class QuestionList extends React.Component {
     this.submitForm = this.submitForm.bind(this)
     this.chooseLongTest = this.chooseLongTest.bind(this)
     this.chooseShortTest = this.chooseShortTest.bind(this)
+    this.nextQuestion = this.nextQuestion.bind(this)
   }
 
   chooseLongTest(){
@@ -70,6 +71,10 @@ class QuestionList extends React.Component {
     });
   }
 
+  nextQuestion() {
+    this.setState({ questionIndex: this.state.questionIndex + 1})
+  }
+
   submitForm(data) {
     let idArray = Object.keys(this.state.questions)
     let payload = {
@@ -90,6 +95,7 @@ class QuestionList extends React.Component {
 
   render(){
     let question;
+    let button;
     if (this.state.questionsArray.length) {
       let questionData = this.state.questionsArray[this.state.questionIndex]
       question =
@@ -100,13 +106,18 @@ class QuestionList extends React.Component {
           handleQuestionSubmit={this.handleQuestionSubmit}
         />
     }
+    if (this.state.questionIndex === this.state.max) {
+      button = <button onClick={this.submitForm}>Submit</button>
+    } else {
+      button = <button onClick={this.nextQuestion}>Next</button>
+    }
 
     return (
       <StyledQuestion>
           {this.state.chosen?(
             <>
               {question}
-              <button onClick={this.submitForm}>Submit</button>
+              {button}
             </>
           ):(
             <>
