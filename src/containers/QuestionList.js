@@ -15,12 +15,15 @@ class QuestionList extends React.Component {
     this.state = {
       chosen: false,
       questions: {},
-      questionsArray: []
+      questionsArray: [],
+      questionIndex: 0,
+      max: 0
     };
     this.handleQuestionSubmit = this.handleQuestionSubmit.bind(this)
     this.submitForm = this.submitForm.bind(this)
     this.chooseLongTest = this.chooseLongTest.bind(this)
     this.chooseShortTest = this.chooseShortTest.bind(this)
+    this.nextQuestion = this.nextQuestion.bind(this)
   }
 
   chooseLongTest(){
@@ -31,7 +34,8 @@ class QuestionList extends React.Component {
     this.setState({
       chosen: true,
       questions: questionsObject,
-      questionsArray: this.props.questions
+      questionsArray: this.props.questions,
+      max: this.props.questions.length - 1
     });
   }
 
@@ -53,7 +57,8 @@ class QuestionList extends React.Component {
       this.setState({
         chosen: true,
         questions: questionsObject,
-        questionsArray: questionsArray
+        questionsArray: questionsArray,
+        max: questionsArray.length - 1
       });
   }
 
@@ -64,6 +69,10 @@ class QuestionList extends React.Component {
         [payload.id]: {...payload}
       }
     });
+  }
+
+  nextQuestion() {
+    this.setState({ questionIndex: this.state.questionIndex + 1})
   }
 
   submitForm(data) {
@@ -85,24 +94,32 @@ class QuestionList extends React.Component {
   }
 
   render(){
-    let questions = this.state.questionsArray.map ((question, index) => {
-      return (
+    console.log(this.state.questionsArray);
+    let question;
+    let button;
+    if (this.state.questionsArray.length) {
+      let questionData = this.state.questionsArray[this.state.questionIndex]
+      question =
         <Question
-          key={question.num}
-          id={index}
-          text={question.text}
-          domain={question.domain}
+          key={questionData.num}
+          id={this.state.questionIndex}
+          text={questionData.text}
+          domain={questionData.domain}
           handleQuestionSubmit={this.handleQuestionSubmit}
         />
-      )
-    });
+    }
+    if (this.state.questionIndex === this.state.max) {
+      button = <button onClick={this.submitForm}>Submit</button>
+    } else {
+      button = <button onClick={this.nextQuestion}>Next</button>
+    }
 
     return (
       <StyledQuestion>
           {this.state.chosen?(
             <>
-              {questions}
-              <button onClick={this.submitForm}>Submit</button>
+              {question}
+              {button}
             </>
           ):(
             <>

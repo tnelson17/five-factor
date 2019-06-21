@@ -27,6 +27,7 @@ class Question extends React.Component {
   }
 
   render(){
+    console.log(this.state);
     return (
       <>
         <div> {this.props.text} </div>
