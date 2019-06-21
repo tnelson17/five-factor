@@ -35,17 +35,65 @@ class Question extends React.Component {
   }
 
   render(){
+    console.log(this.state);
     return (
       <form onSubmit={this.handleSubmit}>
         <div> {this.props.text} </div>
-        <select onChange={this.handleChange}name={this.props.id}>
-          <option value={0}>---</option>
-          <option value={4}>Strongly Agree</option>
-          <option value={3}>Moderately Agree</option>
-          <option value={2}>Neither Agree nor Disagree</option>
-          <option value={1}>Moderately Disagree</option>
-          <option value={0}>Strongly Disagree</option>
-        </select>
+          <div>
+            <label>
+              <input
+                type="radio"
+                value={4}
+                checked={this.state.value === 4}
+                onChange={this.handleChange}
+              />
+              Strongly Agree
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                type="radio"
+                value={3}
+                checked={this.state.value === 3}
+                onChange={this.handleChange}
+              />
+              Moderately Agree
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                type="radio"
+                value={2}
+                checked={this.state.value === 2}
+                onChange={this.handleChange}
+              />
+              Neither Agree nor Disagree
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                type="radio"
+                value={1}
+                checked={this.state.value === 1}
+                onChange={this.handleChange}
+              />
+              Moderately Disagree
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                type="radio"
+                value={0}
+                checked={this.state.value === 0}
+                onChange={this.handleChange}
+              />
+              Strongly Agree
+            </label>
+          </div>
         <button/>
       </form>
     )}

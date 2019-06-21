@@ -5,7 +5,7 @@ import ScoreDisplay from './ScoreDisplay';
 import data from '../data.json'
 
 const Title = styled.h2`
-  text-align: left;
+  text-align: center;
   margin: 0;
   padding-top: 10px;
   padding-right: 10px;
@@ -14,6 +14,7 @@ const Title = styled.h2`
 
 const SubTitle = styled.h5`
   font-style: italic;
+  text-align: center;
   color:#0000CD;
 `
 

@@ -3,7 +3,8 @@ import Score from '../components/Score.js';
 import styled from 'styled-components'
 
 const StyledScore = styled.div`
-  color: #0000CD;
+  color: #0000CD;;
+  text-align: center;
 `
 
 
