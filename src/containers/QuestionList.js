@@ -4,7 +4,9 @@ import styled from 'styled-components';
 const sampleSize = require('lodash.samplesize');
 
 const StyledQuestion = styled.div`
-  color: #0000CD;
+  color: #0000CD;;
+  font-weight: bolder;
+  text-align: center;
 `
 
 class QuestionList extends React.Component {
@@ -90,7 +92,6 @@ class QuestionList extends React.Component {
           id={index}
           text={question.text}
           domain={question.domain}
-          handleClick={this.handleQuestionClick}
           handleQuestionSubmit={this.handleQuestionSubmit}
         />
       )
