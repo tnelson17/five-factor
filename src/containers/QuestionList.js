@@ -94,6 +94,7 @@ class QuestionList extends React.Component {
   }
 
   render(){
+    console.log(this.state.questionsArray);
     let question;
     let button;
     if (this.state.questionsArray.length) {
@@ -101,6 +102,7 @@ class QuestionList extends React.Component {
       question =
         <Question
           key={questionData.num}
+          id={this.state.questionIndex}
           text={questionData.text}
           domain={questionData.domain}
           handleQuestionSubmit={this.handleQuestionSubmit}
