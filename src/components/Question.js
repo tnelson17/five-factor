@@ -5,39 +5,30 @@ class Question extends React.Component {
     super(props);
     this.state = {
       clicked: false,
-      submitted: false,
       value: '',
-      previousValue: '',
       domain: this.props.domain,
       id: this.props.id
     }
     this.handleChange = this.handleChange.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   handleChange(event) {
-    this.setState({
-      clicked: true,
-      value: parseInt(event.target.value) })
-  }
+    let newValue = parseInt(event.target.value)
 
-  handleSubmit(event) {
-    event.preventDefault()
     this.props.handleQuestionSubmit({
       id: this.state.id,
-      value: this.state.value,
+      value: newValue,
       domain: this.state.domain
     })
     this.setState({
-      submitted: true,
-      previousValue: this.state.value
+      clicked: true,
+      value: newValue
     })
   }
 
   render(){
-    console.log(this.state);
     return (
-      <form onSubmit={this.handleSubmit}>
+      <>
         <div> {this.props.text} </div>
           <div>
             <label>
@@ -91,11 +82,10 @@ class Question extends React.Component {
                 checked={this.state.value === 0}
                 onChange={this.handleChange}
               />
-              Strongly Agree
+              Strongly Disagree
             </label>
           </div>
-        <button/>
-      </form>
+      </>
     )}
   }
 
