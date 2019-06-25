@@ -1,4 +1,15 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const RadioButton = styled.div`
+  text-align: left;
+  padding-left: 25%;
+  &:hover {
+    background-color: rgba(0, 0, 255, .1);
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 255, .1);
+  }
+`
 
 class Question extends React.Component {
   constructor(props) {
@@ -27,11 +38,10 @@ class Question extends React.Component {
   }
 
   render(){
-    console.log(this.state);
     return (
       <>
         <div> {this.props.text} </div>
-          <div>
+          <RadioButton>
             <label>
               <input
                 type="radio"
@@ -41,8 +51,8 @@ class Question extends React.Component {
               />
               Strongly Agree
             </label>
-          </div>
-          <div>
+          </RadioButton>
+          <RadioButton>
             <label>
               <input
                 type="radio"
@@ -52,8 +62,8 @@ class Question extends React.Component {
               />
               Moderately Agree
             </label>
-          </div>
-          <div>
+          </RadioButton>
+          <RadioButton>
             <label>
               <input
                 type="radio"
@@ -63,8 +73,8 @@ class Question extends React.Component {
               />
               Neither Agree nor Disagree
             </label>
-          </div>
-          <div>
+          </RadioButton>
+          <RadioButton>
             <label>
               <input
                 type="radio"
@@ -74,8 +84,8 @@ class Question extends React.Component {
               />
               Moderately Disagree
             </label>
-          </div>
-          <div>
+          </RadioButton>
+          <RadioButton>
             <label>
               <input
                 type="radio"
@@ -85,7 +95,7 @@ class Question extends React.Component {
               />
               Strongly Disagree
             </label>
-          </div>
+          </RadioButton>
       </>
     )}
   }
