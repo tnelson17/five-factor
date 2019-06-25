@@ -4,9 +4,12 @@ import styled from 'styled-components';
 const sampleSize = require('lodash.samplesize');
 
 const StyledQuestion = styled.div`
-  color: #0000CD;;
+  color: #0000CD;
   font-weight: bolder;
   text-align: center;
+`
+const StyledButton = styled.button `
+  color: #0000CD;
 `
 
 class QuestionList extends React.Component {
@@ -72,7 +75,11 @@ class QuestionList extends React.Component {
   }
 
   nextQuestion() {
-    this.setState({ questionIndex: this.state.questionIndex + 1})
+    if (this.state.questions[this.state.questionIndex].value === '') {
+      alert("Please select an answer")
+    } else {
+      this.setState({ questionIndex: this.state.questionIndex + 1})
+    }
   }
 
   submitForm(data) {
@@ -94,7 +101,6 @@ class QuestionList extends React.Component {
   }
 
   render(){
-    console.log(this.state.questionsArray);
     let question;
     let button;
     if (this.state.questionsArray.length) {
@@ -109,9 +115,9 @@ class QuestionList extends React.Component {
         />
     }
     if (this.state.questionIndex === this.state.max) {
-      button = <button onClick={this.submitForm}>Submit</button>
+      button = <StyledButton onClick={this.submitForm}>Submit</StyledButton>
     } else {
-      button = <button onClick={this.nextQuestion}>Next</button>
+      button = <StyledButton onClick={this.nextQuestion}>Next</StyledButton>
     }
 
     return (
@@ -123,8 +129,8 @@ class QuestionList extends React.Component {
             </>
           ):(
             <>
-              <button onClick={this.chooseLongTest}>Long Test</button>
-              <button onClick={this.chooseShortTest}>Short Test</button>
+              <StyledButton onClick={this.chooseLongTest}>Long Test</StyledButton>
+              <StyledButton onClick={this.chooseShortTest}>Short Test</StyledButton>
             </>
           )
           }

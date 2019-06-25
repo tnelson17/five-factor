@@ -4,7 +4,20 @@ import QuestionList from './QuestionList';
 import ScoreDisplay from './ScoreDisplay';
 import data from '../data.json'
 
-const Title = styled.h2`
+const InfoCard = styled.div`
+  position: absolute;
+  top: 10%;
+  width: 60%;
+  margin-left: 20%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid;
+  border-color: #81aaff;
+  border-width: 5px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, white, #afddff);
+`
+
+const Title = styled.h1`
   text-align: center;
   margin: 0;
   padding-top: 10px;
@@ -12,10 +25,15 @@ const Title = styled.h2`
   color: #0000CD;
 `
 
-const SubTitle = styled.h5`
+const SubTitle = styled.h3`
   font-style: italic;
   text-align: center;
   color:#0000CD;
+`
+
+const StyledBackButton = styled.button `
+  color: #0000CD;
+  margin-left: 44%;
 `
 
 class App extends React.Component {
@@ -47,11 +65,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <InfoCard>
         <Title> knOw-CEAN </Title>
         <SubTitle>
-          It's not the lies of the MBTI,
-          it's the notion of the OCEAN
+          Know the notion of your OCEAN!
         </SubTitle>
         {this.state.submitted?(
           <>
@@ -59,7 +76,7 @@ class App extends React.Component {
               score = {this.state.score}
               testLength = {this.state.testLength}
             />
-            <button onClick={this.backButton}>Back</button>
+            <StyledBackButton onClick={this.backButton}>Back</StyledBackButton>
           </>
         ):(
           <QuestionList
@@ -67,7 +84,7 @@ class App extends React.Component {
             questions = {data}
           />
         )}
-      </div>
+      </InfoCard>
     );
   }
 };
