@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-ifAKCX qlYUR"
+>
+  <h1
+    className="sc-EHOje fRIdnx"
+  >
+     knOw-CEAN 
+  </h1>
+  <h3
+    className="sc-bZQynM evcoJk"
+  >
+    Know the notion of your OCEAN!
+  </h3>
+  <div
+    className="sc-bwzfXH calFvP"
+  >
+    <button
+      className="sc-htpNat iNyvxz"
+      onClick={[Function]}
+    >
+      Long Test
+    </button>
+    <button
+      className="sc-htpNat iNyvxz"
+      onClick={[Function]}
+    >
+      Short Test
+    </button>
+  </div>
+</div>
+`;
