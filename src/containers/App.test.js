@@ -1,7 +1,15 @@
 import React from 'react';
 import App from './App';
+import renderer from 'react-test-renderer'
 import { shallow } from 'enzyme';
 
 it('renders without crashing', () => {
-  shallow(<App />);
-});
+  shallow(<App />)
+})
+
+it('renders correctly', () => {
+  const tree = renderer
+    .create(<App />)
+    .toJSON()
+  expect(tree).toMatchSnapshot()
+})
