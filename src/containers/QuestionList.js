@@ -27,6 +27,7 @@ class QuestionList extends React.Component {
     this.chooseLongTest = this.chooseLongTest.bind(this)
     this.chooseShortTest = this.chooseShortTest.bind(this)
     this.nextQuestion = this.nextQuestion.bind(this)
+    this.previousQuestion = this.previousQuestion.bind(this)
   }
 
   chooseLongTest(){
@@ -82,6 +83,10 @@ class QuestionList extends React.Component {
     }
   }
 
+  previousQuestion() {
+    this.setState({ questionIndex: this.state.questionIndex - 1})
+  }
+
   submitForm(data) {
     let idArray = Object.keys(this.state.questions)
     let payload = {
@@ -102,7 +107,7 @@ class QuestionList extends React.Component {
 
   render(){
     let question;
-    let button;
+    let buttons;
     if (this.state.questionsArray.length) {
       let questionData = this.state.questionsArray[this.state.questionIndex]
       question =
@@ -115,9 +120,19 @@ class QuestionList extends React.Component {
         />
     }
     if (this.state.questionIndex === this.state.max) {
-      button = <StyledButton onClick={this.submitForm}>Submit</StyledButton>
+      buttons =
+        <>
+          <StyledButton onClick={this.previousQuestion}>Back</StyledButton>
+          <StyledButton onClick={this.submitForm}>Submit</StyledButton>
+        </>
+    } else if (this.state.questionIndex > 0) {
+      buttons =
+        <>
+          <StyledButton onClick={this.previousQuestion}>Back</StyledButton>
+          <StyledButton onClick={this.nextQuestion}>Next</StyledButton>
+        </>
     } else {
-      button = <StyledButton onClick={this.nextQuestion}>Next</StyledButton>
+      buttons = <StyledButton onClick={this.nextQuestion}>Next</StyledButton>
     }
 
     return (
@@ -125,7 +140,7 @@ class QuestionList extends React.Component {
           {this.state.chosen?(
             <>
               {question}
-              {button}
+              {buttons}
             </>
           ):(
             <>
