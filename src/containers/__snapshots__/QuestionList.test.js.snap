@@ -5,13 +5,13 @@ exports[`renders correctly 1`] = `
   className="sc-bwzfXH calFvP"
 >
   <button
-    className="sc-htpNat iNyvxz"
+    className="sc-htpNat NKeRk"
     onClick={[Function]}
   >
     Long Test
   </button>
   <button
-    className="sc-htpNat iNyvxz"
+    className="sc-htpNat NKeRk"
     onClick={[Function]}
   >
     Short Test
