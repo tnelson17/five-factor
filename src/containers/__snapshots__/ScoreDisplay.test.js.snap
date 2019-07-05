@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bdVaJa bgqgPx"
+>
+  <div>
+    Your score in the dimension of 
+    Openness to Experience
+     is 
+    0
+     out of 
+    24
+  </div>
+  <div>
+    You are very rarely playful, curious, imaginative, creative,
+    open-minded, novelty-seeking, forward-looking
+  </div>
+  <div>
+    Your score in the dimension of 
+    Conscientiousness
+     is 
+    0
+     out of 
+    24
+  </div>
+  <div>
+    You are very rarely orderly, committed, confident
+    (with respect to a sense of mastery), achievement-oriented, reliable, self-disciplined
+  </div>
+  <div>
+    Your score in the dimension of 
+    Extroversion
+     is 
+    0
+     out of 
+    24
+  </div>
+  <div>
+    You are very rarely active, energetic, thrill-seeking,
+    enthusiastic, assertive, interactive, friendly.
+  </div>
+  <div>
+    Your score in the dimension of 
+    Agreeableness
+     is 
+    0
+     out of 
+    24
+  </div>
+  <div>
+    You are very rarely accommodating, loyal/trusting, compassionate,
+    altruistic, steady, cooperative, forgiving/tolerant.
+  </div>
+  <div>
+    Your score in the dimension of 
+    Neuroticism
+     is 
+    0
+     out of 
+    24
+  </div>
+  <div>
+    You are extremely calm, even-tempered, positive,
+    resilient/robust, deliberate, easy-going, regulated.
+  </div>
+</div>
+`;

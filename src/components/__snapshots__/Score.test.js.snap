@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div>
+    Your score in the dimension of 
+    Openness to Experience
+     is 
+    0
+     out of 
+    24
+  </div>,
+  <div>
+    You are very rarely playful, curious, imaginative, creative,
+    open-minded, novelty-seeking, forward-looking
+  </div>,
+]
+`;

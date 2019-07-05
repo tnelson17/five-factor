@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div>
+     
+     
+  </div>,
+  <div
+    className="sc-bdVaJa hNRduX"
+  >
+    <label>
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="radio"
+        value={4}
+      />
+      Strongly Agree
+    </label>
+  </div>,
+  <div
+    className="sc-bdVaJa hNRduX"
+  >
+    <label>
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="radio"
+        value={3}
+      />
+      Moderately Agree
+    </label>
+  </div>,
+  <div
+    className="sc-bdVaJa hNRduX"
+  >
+    <label>
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="radio"
+        value={2}
+      />
+      Neither Agree nor Disagree
+    </label>
+  </div>,
+  <div
+    className="sc-bdVaJa hNRduX"
+  >
+    <label>
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="radio"
+        value={1}
+      />
+      Moderately Disagree
+    </label>
+  </div>,
+  <div
+    className="sc-bdVaJa hNRduX"
+  >
+    <label>
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="radio"
+        value={0}
+      />
+      Strongly Disagree
+    </label>
+  </div>,
+]
+`;
