@@ -10,6 +10,7 @@ const StyledQuestion = styled.div`
 `
 const StyledButton = styled.button `
   color: #0000CD;
+  margin-bottom: 2.5%;
 `
 
 class QuestionList extends React.Component {
