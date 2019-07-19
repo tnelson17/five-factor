@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import QuestionList from './QuestionList';
 import ScoreDisplay from './ScoreDisplay';
-import data from '../data.json'
+import data from '../data.json';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 const InfoCard = styled.div`
   position: absolute;
@@ -79,10 +80,13 @@ class App extends React.Component {
             <StyledBackButton onClick={this.backButton}>Back</StyledBackButton>
           </>
         ):(
-          <QuestionList
-            handleFormSubmit = {this.handleFormSubmit}
-            questions = {data}
-          />
+          <BrowserRouter>
+            <Route
+              exact path='/something'
+              render={(props) => <QuestionList {...props} handleFormSubmit = {this.handleFormSubmit}
+              questions = {data} />}
+            />
+          </BrowserRouter>
         )}
       </InfoCard>
     );
