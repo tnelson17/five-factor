@@ -71,7 +71,16 @@ class QuestionList extends React.Component {
     document.addEventListener('keydown', e => {
       if (e.keyCode === 13 && this.state.chosen) {
         this.nextQuestion()
-    }})
+      }
+    })
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('keydown', e => {
+      if (e.keyCode === 13 && this.state.chosen) {
+        this.nextQuestion()
+      }
+    })
   }
 
   handleQuestionSubmit(payload) {
