@@ -67,6 +67,30 @@ class QuestionList extends React.Component {
       });
   }
 
+  componentDidMount() {
+    document.addEventListener('keydown', e => {
+      if (e.keyCode === 13 && this.state.chosen) {
+        if (this.state.questionIndex === this.state.max) {
+          this.submitForm()
+        } else {
+          this.nextQuestion()
+        }
+      }
+    })
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('keydown', e => {
+      if (e.keyCode === 13 && this.state.chosen) {
+        if (this.state.questionIndex === this.state.max) {
+          this.submitForm()
+        } else {
+          this.nextQuestion()
+        }
+      }
+    })
+  }
+
   handleQuestionSubmit(payload) {
     this.setState({
       questions: {
